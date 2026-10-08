@@ -1,0 +1,17 @@
+{
+  "name": "watch-folder",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "watch-folder.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "scriptc": "^0.2.6",
+    "typescript": "^7.0.2"
+  }
+}

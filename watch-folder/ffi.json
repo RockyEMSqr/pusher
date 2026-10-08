@@ -1,0 +1,70 @@
+{
+    "ffi_format": 7,
+    "functions": [
+        {
+            "name": "playAudio",
+            "symbol": "play_audio",
+            "params": [
+                "string"
+            ],
+            "returns": "i32"
+        },
+        {
+            "name": "menuInit",
+            "symbol": "menu_init",
+            "params": [],
+            "returns": "void"
+        },
+        {
+            "name": "menuPoll",
+            "symbol": "menu_poll",
+            "params": [],
+            "returns": "void"
+        },
+        {
+            "name": "menuGetAction",
+            "symbol": "menu_get_action",
+            "params": [],
+            "returns": "i32"
+        },
+        {
+            "name": "menuGetAudioEnabled",
+            "symbol": "menu_get_audio_enabled",
+            "params": [],
+            "returns": "i32"
+        },
+        {
+            "name": "menuSetPaused",
+            "symbol": "menu_set_paused",
+            "params": [
+                "i32"
+            ],
+            "returns": "void"
+        },
+        {
+            "name": "menuSetFolder",
+            "symbol": "menu_set_folder",
+            "params": [
+                "string"
+            ],
+            "returns": "void"
+        },
+        {
+  "name": "menuCopySelectedFolder",
+  "symbol": "menu_copy_selected_folder",
+  "params": ["bytes", "i32"],
+  "returns": "i32"
+}
+    ],
+    "libraries": [
+        "./libnative.a"
+    ],
+    "system_libraries": [
+        "objc"
+    ],
+    "frameworks": [
+        "Foundation",
+        "AVFoundation",
+        "AppKit"
+    ]
+}
